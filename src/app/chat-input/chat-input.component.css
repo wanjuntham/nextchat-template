@@ -1,0 +1,15 @@
+
+#chat-submit-btn {
+    width: 100px;
+}
+
+form {
+    height: 50px;
+    display: flex;
+    align-items: stretch;
+}
+
+#chat-input {
+    flex-grow: 1;
+    font-size: 24px;
+}
