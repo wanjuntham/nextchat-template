@@ -1,6 +1,6 @@
 <div id="chat-input-container">
-  <form>
-    <input type="text" id="chat-input"/>
+  <form [formGroup]="chatInputForm" (ngSubmit)="onSubmitMessage()">
+    <input type="textarea" id="chat-input" formControlName="textInput"/>
     <input type="submit" value="Send" id="chat-submit-btn"/>
   </form>
 </div>

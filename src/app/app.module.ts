@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { ChatInputComponent } from './chat-input/chat-input.component';
 import { ChatContactComponent } from './chat-contact/chat-contact.component';
 import { ChatMessagesComponent } from './chat-messages/chat-messages.component';
-
+import {ReactiveFormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +14,8 @@ import { ChatMessagesComponent } from './chat-messages/chat-messages.component';
     ChatMessagesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
